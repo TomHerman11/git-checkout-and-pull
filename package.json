@@ -1,0 +1,28 @@
+{
+  "name": "git-checkout-and-pull",
+  "version": "1.0.0",
+  "description": "npm Package - A cli tool to execute 'git checkout' and 'git pull origin' in one command.",
+  "keywords": [
+    "git checkout",
+    "git pull origin",
+    "git checkout and pull",
+    "cli tool",
+    "gcp",
+    "command line tool"
+  ],
+  "author": "Tom Herman",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomHerman11/git-checkout-and-pull.git"
+  },
+  "homepage": "https://github.com/TomHerman11/git-checkout-and-pull",
+  "bin": {
+    "gcp": "./src/index.js",
+    "git-checkout-and-pull": "./src/index.js"
+  },
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {},
+  "devDependencies": {}
+}
