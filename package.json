@@ -6,8 +6,8 @@
     "git checkout",
     "git pull origin",
     "git checkout and pull",
+    "gitcp",
     "cli tool",
-    "gcp",
     "command line tool"
   ],
   "author": "Tom Herman",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/TomHerman11/git-checkout-and-pull",
   "bin": {
-    "gcp": "./src/index.js",
+    "gitcp": "./src/index.js",
     "git-checkout-and-pull": "./src/index.js"
   },
   "type": "commonjs",
